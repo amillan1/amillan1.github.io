@@ -75,7 +75,7 @@ html{
 }
 .btn{
 	padding: 10px 35px;
-	background-color: transparent;
+	background-color: #415A3B;
 	border: 1px solid white;
 	color: white;
 	outline: none;
@@ -85,9 +85,15 @@ html{
 	cursor: pointer;
 	background-color: white;
 	color: black;
-	box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
+	box-shadow: 0 0 2px white, 0 0 5px white, 0 0 8px white;
 	font-weight: bold;
 }
+.btn:active{
+	transform: translateY(2px);
+	color: black;
+	background-color:#F1E8CC;
+}
+
 /*About Section*/
 #about{
 	display: flex;
