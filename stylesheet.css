@@ -29,7 +29,7 @@ html{
 	text-decoration: none;
 	color: #F1E8CC;
 	padding: 8px 25px;
-	transition: all .5s ease;	
+	transition: all .4s ease;	
 }
 .navbar ul li a:hover{
 	background-color: white;
