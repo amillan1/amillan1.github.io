@@ -6,7 +6,7 @@
   text-align: center;
   background: #415A3B;
   color: #F1E8CC;
-  font-size: 25px;
+  font-size: 15px;
 }
 *{
 	margin: 0;
@@ -200,8 +200,20 @@ html{
 	margin: 40px;
 	activeborder: none;
 	outline: none;
+	background-color: #415A3B;
+	border: 1px solid white;
+	transition: .6s ease;
+	color: white;
 }
 #send:hover{
 	cursor: pointer;
-	box-shadow: 0 0 10px white;
+	background-color: white;
+	color: black;
+	box-shadow: 0 0 2px white, 0 0 5px white, 0 0 8px white;
+	font-weight: bold;
+}
+#send:active{
+	transform: translateY(2px);
+	color: black;
+	background-color:#D3C494;
 }
