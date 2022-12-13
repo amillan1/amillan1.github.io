@@ -1,4 +1,13 @@
 /* CSS Document */
+
+/* Header */
+.header {
+  padding: 10px;
+  text-align: center;
+  background: #415A3B;
+  color: #F1E8CC;
+  font-size: 25px;
+}
 *{
 	margin: 0;
 	padding: 0;
