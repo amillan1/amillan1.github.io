@@ -106,8 +106,11 @@ html{
 	display: flex;
 }
 #pic img{
-	width: 500px;
-	height: 500px;
+	width: 20%;
+	height: 20%;
+  	display: block;
+ 	margin-left: auto;
+ 	margin-right: auto;
 }
 #intro{
 	display: flex;
